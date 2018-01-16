@@ -1,0 +1,12 @@
+{
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"appid": "wx70f4def3f7ece5ac",
+	"projectname": "demo",
+	"condition": {}
+}

@@ -1,0 +1,23 @@
+<template name="footer">
+  <view class="footer">
+    <view class="footer_sub">
+      <navigator url="/pages/index/index" open-type='redirect' class="footer_tab">
+        <view></view>
+        <view>首页</view>
+      </navigator>
+      <navigator url="/pages/my/index" open-type='redirect' class="footer_tab">
+        <view></view>
+        <view>附近</view>
+      </navigator>
+    </view>
+  </view>
+</template>
+<template name="layer">
+  <view class="layer" hidden='{{layer.show}}'>
+    <view class="layer-sub">
+      <view class="layer-seat"></view>
+      <view class="layer-content {{layer.state}}">{{layer.content}}</view>
+      <view class="layer-seat"></view>
+    </view>
+  </view>
+</template>
